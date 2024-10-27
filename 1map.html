@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_eb3c01971860189691abcff20363a49f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_eb3c01971860189691abcff20363a49f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_eb3c01971860189691abcff20363a49f = L.map(
+                "map_eb3c01971860189691abcff20363a49f",
+                {
+                    center: [27.816572, 30.546781],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0fb284721fb2bcc91f2751d3f456ecb0 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_0fb284721fb2bcc91f2751d3f456ecb0.addTo(map_eb3c01971860189691abcff20363a49f);
+        
+    
+            var marker_90a490038376ccfcf8f301a5adb63420 = L.marker(
+                [27.816572, 30.546781],
+                {}
+            ).addTo(map_eb3c01971860189691abcff20363a49f);
+        
+    
+        var popup_2934774f3b0e3b9d479269dd1722241c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87526e91d81ddff4fc91a3f622fb00fd = $(`<div id="html_87526e91d81ddff4fc91a3f622fb00fd" style="width: 100.0%; height: 100.0%;"><a href='https://www.google.com/maps/dir/?api=1&destination=27.816572,30.546781' target='_blank'>مصنع القناة للسكر</a></div>`)[0];
+                popup_2934774f3b0e3b9d479269dd1722241c.setContent(html_87526e91d81ddff4fc91a3f622fb00fd);
+            
+        
+
+        marker_90a490038376ccfcf8f301a5adb63420.bindPopup(popup_2934774f3b0e3b9d479269dd1722241c)
+        ;
+
+        
+    
+    
+            var marker_a380f73e772cf6c065de5f6bce2d5e5a = L.marker(
+                [29.0898017, 30.94701],
+                {}
+            ).addTo(map_eb3c01971860189691abcff20363a49f);
+        
+    
+        var popup_c7947c90164eb62bac9b5783109c4f4c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab8011b0e318992c42dde26f8439263b = $(`<div id="html_ab8011b0e318992c42dde26f8439263b" style="width: 100.0%; height: 100.0%;"><a href='https://www.google.com/maps/dir/?api=1&destination=29.0898017,30.94701' target='_blank'>اهناسيا</a></div>`)[0];
+                popup_c7947c90164eb62bac9b5783109c4f4c.setContent(html_ab8011b0e318992c42dde26f8439263b);
+            
+        
+
+        marker_a380f73e772cf6c065de5f6bce2d5e5a.bindPopup(popup_c7947c90164eb62bac9b5783109c4f4c)
+        ;
+
+        
+    
+    
+            var marker_0e0a456dae1cb50a0a323ba3c885d2b9 = L.marker(
+                [28.8825904, 30.8121589],
+                {}
+            ).addTo(map_eb3c01971860189691abcff20363a49f);
+        
+    
+        var popup_cc1b8760050c8f5f1b56cec5b771fee0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_37e2abff2c62ddc2ce85e6928a1abc51 = $(`<div id="html_37e2abff2c62ddc2ce85e6928a1abc51" style="width: 100.0%; height: 100.0%;"><a href='https://www.google.com/maps/dir/?api=1&destination=28.8825904,30.8121589' target='_blank'>مازوره</a></div>`)[0];
+                popup_cc1b8760050c8f5f1b56cec5b771fee0.setContent(html_37e2abff2c62ddc2ce85e6928a1abc51);
+            
+        
+
+        marker_0e0a456dae1cb50a0a323ba3c885d2b9.bindPopup(popup_cc1b8760050c8f5f1b56cec5b771fee0)
+        ;
+
+        
+    
+    
+            var marker_54c7103e561dae2fcd0c5a6f1dbe4efd = L.marker(
+                [28.9580228, 30.8422154],
+                {}
+            ).addTo(map_eb3c01971860189691abcff20363a49f);
+        
+    
+        var popup_ec8a1cedd48b95c9b7a5f75ae3457e89 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4625079fcb6f6ce308ed678dfa43d199 = $(`<div id="html_4625079fcb6f6ce308ed678dfa43d199" style="width: 100.0%; height: 100.0%;"><a href='https://www.google.com/maps/dir/?api=1&destination=28.9580228,30.8422154' target='_blank'>سمسطا</a></div>`)[0];
+                popup_ec8a1cedd48b95c9b7a5f75ae3457e89.setContent(html_4625079fcb6f6ce308ed678dfa43d199);
+            
+        
+
+        marker_54c7103e561dae2fcd0c5a6f1dbe4efd.bindPopup(popup_ec8a1cedd48b95c9b7a5f75ae3457e89)
+        ;
+
+        
+    
+    
+            var marker_42f009d4295bc4aad2af0aad263220d4 = L.marker(
+                [28.0392336705908, 30.7621616497635],
+                {}
+            ).addTo(map_eb3c01971860189691abcff20363a49f);
+        
+    
+        var popup_dcfd02da9f16045cad49f218a59c6b42 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0571daf8f607c57cbca6f58b8eef93cb = $(`<div id="html_0571daf8f607c57cbca6f58b8eef93cb" style="width: 100.0%; height: 100.0%;"><a href='https://www.google.com/maps/dir/?api=1&destination=28.0392336705908,30.7621616497635' target='_blank'>بنى احمد</a></div>`)[0];
+                popup_dcfd02da9f16045cad49f218a59c6b42.setContent(html_0571daf8f607c57cbca6f58b8eef93cb);
+            
+        
+
+        marker_42f009d4295bc4aad2af0aad263220d4.bindPopup(popup_dcfd02da9f16045cad49f218a59c6b42)
+        ;
+
+        
+    
+    
+            var marker_b8ea9cbe28d95045adbc97f29f25b093 = L.marker(
+                [28.7862440106553, 30.8222146332263],
+                {}
+            ).addTo(map_eb3c01971860189691abcff20363a49f);
+        
+    
+        var popup_a1e9ae61f30e750c765bfca8149309b4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a415d6b7df2acc83606f20ebcc35b861 = $(`<div id="html_a415d6b7df2acc83606f20ebcc35b861" style="width: 100.0%; height: 100.0%;"><a href='https://www.google.com/maps/dir/?api=1&destination=28.7862440106553,30.8222146332263' target='_blank'>اقفهص</a></div>`)[0];
+                popup_a1e9ae61f30e750c765bfca8149309b4.setContent(html_a415d6b7df2acc83606f20ebcc35b861);
+            
+        
+
+        marker_b8ea9cbe28d95045adbc97f29f25b093.bindPopup(popup_a1e9ae61f30e750c765bfca8149309b4)
+        ;
+
+        
+    
+    
+            var marker_28a7f815b22b5958d37238fe554865be = L.marker(
+                [28.5849877694905, 30.7346187159419],
+                {}
+            ).addTo(map_eb3c01971860189691abcff20363a49f);
+        
+    
+        var popup_78c62160c97527893f862774f4ddd158 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_36bf3c3424f0bffdc92390d640c049de = $(`<div id="html_36bf3c3424f0bffdc92390d640c049de" style="width: 100.0%; height: 100.0%;"><a href='https://www.google.com/maps/dir/?api=1&destination=28.5849877694905,30.7346187159419' target='_blank'>الجرنوس</a></div>`)[0];
+                popup_78c62160c97527893f862774f4ddd158.setContent(html_36bf3c3424f0bffdc92390d640c049de);
+            
+        
+
+        marker_28a7f815b22b5958d37238fe554865be.bindPopup(popup_78c62160c97527893f862774f4ddd158)
+        ;
+
+        
+    
+    
+            var marker_21dfb607d757782224ce794a97eb1ad4 = L.marker(
+                [28.5853932, 30.7611089],
+                {}
+            ).addTo(map_eb3c01971860189691abcff20363a49f);
+        
+    
+        var popup_da8cfeccfc958fff4d8a90894e2a9306 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f575a127fa2a391d24c1cf795ac31a9 = $(`<div id="html_2f575a127fa2a391d24c1cf795ac31a9" style="width: 100.0%; height: 100.0%;"><a href='https://www.google.com/maps/dir/?api=1&destination=28.5853932,30.7611089' target='_blank'>أبا البلد</a></div>`)[0];
+                popup_da8cfeccfc958fff4d8a90894e2a9306.setContent(html_2f575a127fa2a391d24c1cf795ac31a9);
+            
+        
+
+        marker_21dfb607d757782224ce794a97eb1ad4.bindPopup(popup_da8cfeccfc958fff4d8a90894e2a9306)
+        ;
+
+        
+    
+    
+            var marker_f4fa5eb768058477b555086556dc22b8 = L.marker(
+                [27.9143810272216, 30.739086151123],
+                {}
+            ).addTo(map_eb3c01971860189691abcff20363a49f);
+        
+    
+        var popup_05f209043c95a880dfa526053b4945e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2fa32e9fb456f842dcb539ba0d3e7dbe = $(`<div id="html_2fa32e9fb456f842dcb539ba0d3e7dbe" style="width: 100.0%; height: 100.0%;"><a href='https://www.google.com/maps/dir/?api=1&destination=27.9143810272216,30.739086151123' target='_blank'>منتوت</a></div>`)[0];
+                popup_05f209043c95a880dfa526053b4945e9.setContent(html_2fa32e9fb456f842dcb539ba0d3e7dbe);
+            
+        
+
+        marker_f4fa5eb768058477b555086556dc22b8.bindPopup(popup_05f209043c95a880dfa526053b4945e9)
+        ;
+
+        
+    
+    
+            var marker_fe870483605ab6252b83fc1d9a946602 = L.marker(
+                [28.4190953, 30.6973536],
+                {}
+            ).addTo(map_eb3c01971860189691abcff20363a49f);
+        
+    
+        var popup_3d9360730b149963d4c8ef21a3fcf2ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f760581647faa70e765a71d0478c740 = $(`<div id="html_9f760581647faa70e765a71d0478c740" style="width: 100.0%; height: 100.0%;"><a href='https://www.google.com/maps/dir/?api=1&destination=28.4190953,30.6973536' target='_blank'>منشاه منبال</a></div>`)[0];
+                popup_3d9360730b149963d4c8ef21a3fcf2ff.setContent(html_9f760581647faa70e765a71d0478c740);
+            
+        
+
+        marker_fe870483605ab6252b83fc1d9a946602.bindPopup(popup_3d9360730b149963d4c8ef21a3fcf2ff)
+        ;
+
+        
+    
+    
+            var marker_98fce9467b6d0f54354f0e5e0d55bd8f = L.marker(
+                [29.1912967, 31.0460928],
+                {}
+            ).addTo(map_eb3c01971860189691abcff20363a49f);
+        
+    
+        var popup_c78fc30827e27fed6d39323f3963a5a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_312b03c5bba1a6ad3d1216e8fee0b921 = $(`<div id="html_312b03c5bba1a6ad3d1216e8fee0b921" style="width: 100.0%; height: 100.0%;"><a href='https://www.google.com/maps/dir/?api=1&destination=29.1912967,31.0460928' target='_blank'>كوم ابوخلاد</a></div>`)[0];
+                popup_c78fc30827e27fed6d39323f3963a5a8.setContent(html_312b03c5bba1a6ad3d1216e8fee0b921);
+            
+        
+
+        marker_98fce9467b6d0f54354f0e5e0d55bd8f.bindPopup(popup_c78fc30827e27fed6d39323f3963a5a8)
+        ;
+
+        
+    
+    
+            var marker_d7ecde7e5548a153bf5f58a24db977d6 = L.marker(
+                [27.635437549611, 30.8118482306599],
+                {}
+            ).addTo(map_eb3c01971860189691abcff20363a49f);
+        
+    
+        var popup_bd72f7e38b006a0b6b882c53ee6c03da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f56916a84dc8dc313d7397fec2dab0b = $(`<div id="html_5f56916a84dc8dc313d7397fec2dab0b" style="width: 100.0%; height: 100.0%;"><a href='https://www.google.com/maps/dir/?api=1&destination=27.635437549611,30.8118482306599' target='_blank'>عزبة الوجاك</a></div>`)[0];
+                popup_bd72f7e38b006a0b6b882c53ee6c03da.setContent(html_5f56916a84dc8dc313d7397fec2dab0b);
+            
+        
+
+        marker_d7ecde7e5548a153bf5f58a24db977d6.bindPopup(popup_bd72f7e38b006a0b6b882c53ee6c03da)
+        ;
+
+        
+    
+    
+            var marker_7b1bb81898fa89c3303df7c3ea77a847 = L.marker(
+                [27.9508214, 30.7714199],
+                {}
+            ).addTo(map_eb3c01971860189691abcff20363a49f);
+        
+    
+        var popup_8b8c819026a68a8bea5ae5b3c36bf957 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd70e63df6e660bd288572582e1c91e8 = $(`<div id="html_bd70e63df6e660bd288572582e1c91e8" style="width: 100.0%; height: 100.0%;"><a href='https://www.google.com/maps/dir/?api=1&destination=27.9508214,30.7714199' target='_blank'>بنى عبيد</a></div>`)[0];
+                popup_8b8c819026a68a8bea5ae5b3c36bf957.setContent(html_bd70e63df6e660bd288572582e1c91e8);
+            
+        
+
+        marker_7b1bb81898fa89c3303df7c3ea77a847.bindPopup(popup_8b8c819026a68a8bea5ae5b3c36bf957)
+        ;
+
+        
+    
+    
+            var marker_63b7818d1722471814502715c9b494bc = L.marker(
+                [27.7799614, 30.792777],
+                {}
+            ).addTo(map_eb3c01971860189691abcff20363a49f);
+        
+    
+        var popup_c45ebed64a6e1ac555b094acbed2b473 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b3cc6176e5eeb8553dcf541bfff3026 = $(`<div id="html_5b3cc6176e5eeb8553dcf541bfff3026" style="width: 100.0%; height: 100.0%;"><a href='https://www.google.com/maps/dir/?api=1&destination=27.7799614,30.792777' target='_blank'>الاشمونين</a></div>`)[0];
+                popup_c45ebed64a6e1ac555b094acbed2b473.setContent(html_5b3cc6176e5eeb8553dcf541bfff3026);
+            
+        
+
+        marker_63b7818d1722471814502715c9b494bc.bindPopup(popup_c45ebed64a6e1ac555b094acbed2b473)
+        ;
+
+        
+    
+    
+            var marker_f60f9ea62da1d52c5783f08875b93e81 = L.marker(
+                [27.7202192, 30.7939964],
+                {}
+            ).addTo(map_eb3c01971860189691abcff20363a49f);
+        
+    
+        var popup_340ca4f9f63c147560b676fa901b09c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3be41a15b9e5c246d689b3db7b06e239 = $(`<div id="html_3be41a15b9e5c246d689b3db7b06e239" style="width: 100.0%; height: 100.0%;"><a href='https://www.google.com/maps/dir/?api=1&destination=27.7202192,30.7939964' target='_blank'>ام قمص</a></div>`)[0];
+                popup_340ca4f9f63c147560b676fa901b09c9.setContent(html_3be41a15b9e5c246d689b3db7b06e239);
+            
+        
+
+        marker_f60f9ea62da1d52c5783f08875b93e81.bindPopup(popup_340ca4f9f63c147560b676fa901b09c9)
+        ;
+
+        
+    
+    
+            var marker_ed91b981a4dfd02e63e973bffcb96cf0 = L.marker(
+                [28.2577447, 30.7067421],
+                {}
+            ).addTo(map_eb3c01971860189691abcff20363a49f);
+        
+    
+        var popup_7a1ca3bb062569dbd50c3216ed4f7c53 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df279a0523fc3440228027941e8ec145 = $(`<div id="html_df279a0523fc3440228027941e8ec145" style="width: 100.0%; height: 100.0%;"><a href='https://www.google.com/maps/dir/?api=1&destination=28.2577447,30.7067421' target='_blank'>كوم اللوف</a></div>`)[0];
+                popup_7a1ca3bb062569dbd50c3216ed4f7c53.setContent(html_df279a0523fc3440228027941e8ec145);
+            
+        
+
+        marker_ed91b981a4dfd02e63e973bffcb96cf0.bindPopup(popup_7a1ca3bb062569dbd50c3216ed4f7c53)
+        ;
+
+        
+    
+    
+            var marker_3d733fbe620fe2f684854349db6c9fdb = L.marker(
+                [29.0012493, 30.9634626],
+                {}
+            ).addTo(map_eb3c01971860189691abcff20363a49f);
+        
+    
+        var popup_ae93e23a9639f24be80aafdde9b6408c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7648c1601e1e5619f25babd034827be7 = $(`<div id="html_7648c1601e1e5619f25babd034827be7" style="width: 100.0%; height: 100.0%;"><a href='https://www.google.com/maps/dir/?api=1&destination=29.0012493,30.9634626' target='_blank'>ببا</a></div>`)[0];
+                popup_ae93e23a9639f24be80aafdde9b6408c.setContent(html_7648c1601e1e5619f25babd034827be7);
+            
+        
+
+        marker_3d733fbe620fe2f684854349db6c9fdb.bindPopup(popup_ae93e23a9639f24be80aafdde9b6408c)
+        ;
+
+        
+    
+    
+            var marker_f5dfe0e823705399bfabcf1f20b0a843 = L.marker(
+                [27.9244682276432, 30.6963258236646],
+                {}
+            ).addTo(map_eb3c01971860189691abcff20363a49f);
+        
+    
+        var popup_410d94e67ce196f47fa388ddb23081eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_acb2a48c20c6cccd6edbe76960b3ce07 = $(`<div id="html_acb2a48c20c6cccd6edbe76960b3ce07" style="width: 100.0%; height: 100.0%;"><a href='https://www.google.com/maps/dir/?api=1&destination=27.9244682276432,30.6963258236646' target='_blank'>بلنصوره</a></div>`)[0];
+                popup_410d94e67ce196f47fa388ddb23081eb.setContent(html_acb2a48c20c6cccd6edbe76960b3ce07);
+            
+        
+
+        marker_f5dfe0e823705399bfabcf1f20b0a843.bindPopup(popup_410d94e67ce196f47fa388ddb23081eb)
+        ;
+
+        
+    
+    
+            var marker_6afff1d0ca58a47278d502a2ccbb1481 = L.marker(
+                [29.4823206, 30.9689116],
+                {}
+            ).addTo(map_eb3c01971860189691abcff20363a49f);
+        
+    
+        var popup_40efa8cf1dca3401ffab74c5067d3665 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9dbfddaa88d2aca00e9b826da34cd93 = $(`<div id="html_a9dbfddaa88d2aca00e9b826da34cd93" style="width: 100.0%; height: 100.0%;"><a href='https://www.google.com/maps/dir/?api=1&destination=29.4823206,30.9689116' target='_blank'>كشك المرور - طاميه</a></div>`)[0];
+                popup_40efa8cf1dca3401ffab74c5067d3665.setContent(html_a9dbfddaa88d2aca00e9b826da34cd93);
+            
+        
+
+        marker_6afff1d0ca58a47278d502a2ccbb1481.bindPopup(popup_40efa8cf1dca3401ffab74c5067d3665)
+        ;
+
+        
+    
+    
+            var marker_260fd0f727f3e13be68ab48fb3d48053 = L.marker(
+                [27.8393524, 30.7473052],
+                {}
+            ).addTo(map_eb3c01971860189691abcff20363a49f);
+        
+    
+        var popup_95ad4c8600a7637318f08245c0958db9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ecf3ee0d009c7bfc4621dda14b30250 = $(`<div id="html_8ecf3ee0d009c7bfc4621dda14b30250" style="width: 100.0%; height: 100.0%;"><a href='https://www.google.com/maps/dir/?api=1&destination=27.8393524,30.7473052' target='_blank'>ابشاده</a></div>`)[0];
+                popup_95ad4c8600a7637318f08245c0958db9.setContent(html_8ecf3ee0d009c7bfc4621dda14b30250);
+            
+        
+
+        marker_260fd0f727f3e13be68ab48fb3d48053.bindPopup(popup_95ad4c8600a7637318f08245c0958db9)
+        ;
+
+        
+    
+    
+            var marker_070d8a2be9857ac47cb021ed3d0570dd = L.marker(
+                [27.8972358703613, 30.8013248443603],
+                {}
+            ).addTo(map_eb3c01971860189691abcff20363a49f);
+        
+    
+        var popup_8bc80fec47cdb8498ea6eaf00dcc1421 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44dfc876e3aac704edd86b2157075a1e = $(`<div id="html_44dfc876e3aac704edd86b2157075a1e" style="width: 100.0%; height: 100.0%;"><a href='https://www.google.com/maps/dir/?api=1&destination=27.8972358703613,30.8013248443603' target='_blank'>سفاى</a></div>`)[0];
+                popup_8bc80fec47cdb8498ea6eaf00dcc1421.setContent(html_44dfc876e3aac704edd86b2157075a1e);
+            
+        
+
+        marker_070d8a2be9857ac47cb021ed3d0570dd.bindPopup(popup_8bc80fec47cdb8498ea6eaf00dcc1421)
+        ;
+
+        
+    
+    
+            var marker_6b313f4ef26de0cd33c93469aa2e6888 = L.marker(
+                [29.0905853, 31.094674],
+                {}
+            ).addTo(map_eb3c01971860189691abcff20363a49f);
+        
+    
+        var popup_aa2903d3e0fb9db79bb8e2b202d39ae5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd205b4489169e53bad144757fb6d480 = $(`<div id="html_bd205b4489169e53bad144757fb6d480" style="width: 100.0%; height: 100.0%;"><a href='https://www.google.com/maps/dir/?api=1&destination=29.0905853,31.094674' target='_blank'>عزبه احمد وهبه</a></div>`)[0];
+                popup_aa2903d3e0fb9db79bb8e2b202d39ae5.setContent(html_bd205b4489169e53bad144757fb6d480);
+            
+        
+
+        marker_6b313f4ef26de0cd33c93469aa2e6888.bindPopup(popup_aa2903d3e0fb9db79bb8e2b202d39ae5)
+        ;
+
+        
+    
+    
+            var marker_108a526c56135c8f8b3bf07fe6491457 = L.marker(
+                [27.8292518, 30.7995077],
+                {}
+            ).addTo(map_eb3c01971860189691abcff20363a49f);
+        
+    
+        var popup_754d23bedf468a9d39f3d15df66c705b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71f5cd2e45f9fa241f19b1a9e86e00ef = $(`<div id="html_71f5cd2e45f9fa241f19b1a9e86e00ef" style="width: 100.0%; height: 100.0%;"><a href='https://www.google.com/maps/dir/?api=1&destination=27.8292518,30.7995077' target='_blank'>المحرص</a></div>`)[0];
+                popup_754d23bedf468a9d39f3d15df66c705b.setContent(html_71f5cd2e45f9fa241f19b1a9e86e00ef);
+            
+        
+
+        marker_108a526c56135c8f8b3bf07fe6491457.bindPopup(popup_754d23bedf468a9d39f3d15df66c705b)
+        ;
+
+        
+    
+    
+            var marker_c3f6d2f683c225958f4f7e955908ef42 = L.marker(
+                [28.5312264789434, 30.7432859390974],
+                {}
+            ).addTo(map_eb3c01971860189691abcff20363a49f);
+        
+    
+        var popup_3f82a557d29f1948c75d9ecd9a46a160 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb530335c928e7fc693521dcee18a6e4 = $(`<div id="html_eb530335c928e7fc693521dcee18a6e4" style="width: 100.0%; height: 100.0%;"><a href='https://www.google.com/maps/dir/?api=1&destination=28.5312264789434,30.7432859390974' target='_blank'>ابوالعباس</a></div>`)[0];
+                popup_3f82a557d29f1948c75d9ecd9a46a160.setContent(html_eb530335c928e7fc693521dcee18a6e4);
+            
+        
+
+        marker_c3f6d2f683c225958f4f7e955908ef42.bindPopup(popup_3f82a557d29f1948c75d9ecd9a46a160)
+        ;
+
+        
+    
+    
+            var marker_15e5579ab43498fe87272718a6765d32 = L.marker(
+                [29.1476833, 31.1172683],
+                {}
+            ).addTo(map_eb3c01971860189691abcff20363a49f);
+        
+    
+        var popup_a85a75db657ba0dc3ad035171d287bfd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e50ff3278aae74e308d19817d3db60af = $(`<div id="html_e50ff3278aae74e308d19817d3db60af" style="width: 100.0%; height: 100.0%;"><a href='https://www.google.com/maps/dir/?api=1&destination=29.1476833,31.1172683' target='_blank'>بوش</a></div>`)[0];
+                popup_a85a75db657ba0dc3ad035171d287bfd.setContent(html_e50ff3278aae74e308d19817d3db60af);
+            
+        
+
+        marker_15e5579ab43498fe87272718a6765d32.bindPopup(popup_a85a75db657ba0dc3ad035171d287bfd)
+        ;
+
+        
+    
+    
+            var marker_a3076b962b204ed382d606133e72930a = L.marker(
+                [28.855097576938, 30.8296101540327],
+                {}
+            ).addTo(map_eb3c01971860189691abcff20363a49f);
+        
+    
+        var popup_43edf9645067d237bd5dff063b5289bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7dc6c42ef8521a9e49a575647aabaeb = $(`<div id="html_b7dc6c42ef8521a9e49a575647aabaeb" style="width: 100.0%; height: 100.0%;"><a href='https://www.google.com/maps/dir/?api=1&destination=28.855097576938,30.8296101540327' target='_blank'>تلت</a></div>`)[0];
+                popup_43edf9645067d237bd5dff063b5289bc.setContent(html_b7dc6c42ef8521a9e49a575647aabaeb);
+            
+        
+
+        marker_a3076b962b204ed382d606133e72930a.bindPopup(popup_43edf9645067d237bd5dff063b5289bc)
+        ;
+
+        
+    
+    
+            var marker_624ec1d3f74aaaa6d410a0d285300b4b = L.marker(
+                [27.6816568, 30.7772453],
+                {}
+            ).addTo(map_eb3c01971860189691abcff20363a49f);
+        
+    
+        var popup_6e5733c5dbf27e926b0bd80ec0c14a82 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f7a54b39b7e33e1cc86fc5e97e622e4 = $(`<div id="html_9f7a54b39b7e33e1cc86fc5e97e622e4" style="width: 100.0%; height: 100.0%;"><a href='https://www.google.com/maps/dir/?api=1&destination=27.6816568,30.7772453' target='_blank'>تنده</a></div>`)[0];
+                popup_6e5733c5dbf27e926b0bd80ec0c14a82.setContent(html_9f7a54b39b7e33e1cc86fc5e97e622e4);
+            
+        
+
+        marker_624ec1d3f74aaaa6d410a0d285300b4b.bindPopup(popup_6e5733c5dbf27e926b0bd80ec0c14a82)
+        ;
+
+        
+    
+</script>
+</html>
